@@ -1,0 +1,131 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .sold__product {
+        display: none;
+    }
+}
+
+/* MOBILE & TABLET */
+@media (max-width: 1023px) {
+    .hideOn-Mobile-Tablet {
+        display: none;
+    }
+    .category__mobile {
+        display: block;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .container {
+        margin-top: 95px;
+    }
+    .search__frame {
+        margin: auto;
+    }
+    .header__search {
+        margin: auto;
+    }
+    .cart__header {
+        min-width: 70px;
+    }
+    .cart__notice {
+        right: 12px;
+    }
+    .cart__modal {
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        right: 0;
+        padding: 0 calc((100% - 645px)/2);
+    }
+    .cart__modal::before {
+        right: 65px;
+        border-color: transparent;
+    }
+    .navbar__sort-list {
+        display: flex;
+    }
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hideOn-Tablet {
+        display: none;
+    }
+
+    .footer__copyright-info-left {
+        width: 50%;
+    }
+
+    .footer__copyright-info-right {
+        width: 50%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+    .hideOn-Mobile {
+        display: none;
+    }
+    .search__frame {
+        position: fixed;
+        top: 57px;
+        z-index: 1;
+        display: none;
+        animation: fadeIn 0.2s linear;
+    }
+    .history__search {
+        position: fixed;
+    }
+
+    .input__checkbox {
+        display: block;
+    }
+
+    .navbar__sort-link {
+        padding: 0 5px;
+    }
+
+    .search__frame {
+        top: 55px;
+    }
+
+    .search__tags {
+        height: 45px;
+    }
+
+    .logo__shop-img {
+        width: 120px;
+    }
+
+    .footer__scurity {
+        padding-top: 0;
+    }
+
+    .footer__scurity-top {
+        display: none;
+    }
+
+    .footer__scurity-center {
+        width: 30%;
+    }
+
+    .customer__care {
+        width: 100%;
+    }
+
+    .container__dowload {
+        width: 100%;
+    }
+
+    .about__tickid {
+        display: none;
+    }
+
+    .follow__tickid {
+        display: none;
+    }
+}
