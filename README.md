@@ -1,5 +1,5 @@
 # Shopee
- Website clone shopee
+ Website clone shopee, you can visit it in: https://vth20.github.io/Shopee
 
  Những chỗ thay đổi khi hover: 
   - Header navbar: "Vào cửa hàng trên ứng dụng", "Thông báo".
